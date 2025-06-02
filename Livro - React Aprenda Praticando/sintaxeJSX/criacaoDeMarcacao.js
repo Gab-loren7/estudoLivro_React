@@ -1,5 +1,6 @@
 /* 
-    JSX é uma tecnologia criada com a finalidade de simplificar e facilitar a escrita de códigos JavaScript e amplamente usada em React. Trata-se de uma sintaxe declarativa que descreve, com uso de JS, HTML e CSS, a estrutura, o comportamento e a apresentação de um componente.
+    JSX é uma tecnologia criada com a finalidade de simplificar e facilitar a escrita de códigos JavaScript e amplamente usada em React.
+    Trata-se de uma sintaxe declarativa que descreve, com uso de JS, HTML e CSS, a estrutura, o comportamento e a apresentação de um componente.
 */
 
 // JavaScript puro
