@@ -27,4 +27,6 @@
   - `Destructuring Assignment`
 
   - `Import / Export`
+    
+  - `Sintaxe JSX`
 
