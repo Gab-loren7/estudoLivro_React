@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDNs corretos para React e ReactDOM -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <title>ReactDOM HTML</title>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        // const marcacaoHTML = React.createElement("el",{objeto javascript}, "conteúdo")
+        const editora = React.createElement("h1", { className: "logo" }, "Editora MaujorTec");
+
+        ReactDOM.render(editora, document.getElementById("root"));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Core HTML</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/javascript">
+        var h1 = document.createElement("h1");
+        h1.setAttribute("class","logo");
+        var text = document.createTextNode("Editora MaujorTec");
+        h1.appendChild(text);
+        var root = document.getElementById("root");
+        root.appendChild(h1);
+    </script>
+</body>
+
+</html>

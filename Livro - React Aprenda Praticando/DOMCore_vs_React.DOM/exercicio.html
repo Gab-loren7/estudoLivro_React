@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <title>Exercicio React DOM</title>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        // Primeiro, definimos os elementos mais internos (os links <a>)
+        const a = React.createElement("a", { href: "index.html" }, "Home");
+        const b = React.createElement("a", { href: "livros.html" }, "Livros");
+        const c = React.createElement("a", { href: "autores.html" }, "Autores");
+
+        // Em seguida, definimos o elemento <li>, passando os links como filhos
+        // É importante passar os filhos como argumentos separados ou como um array.
+        const li1 = React.createElement("li", null, a);
+        const li2 = React.createElement("li", null, b);
+        const li3 = React.createElement("li", null, c);
+        // Ou, se preferir, como um array:
+        // const li = React.createElement("li", null, [a, b, c]);
+
+        // Depois, definimos o elemento <ul>, passando o <li> como filho
+        const ul = React.createElement("ul", null, li1, li2, li3);
+
+        // Finalmente, definimos o elemento <nav>, passando o <ul> como filho
+        const nav = React.createElement("nav", { className: "menu" }, ul);
+
+        // Por último, renderizamos a estrutura completa no DOM
+        ReactDOM.render(nav, document.getElementById("root"));
+    </script>
+</body>
+
+</html>
