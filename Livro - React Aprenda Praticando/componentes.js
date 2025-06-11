@@ -2,8 +2,10 @@ function Header() {
     return React.createElement("Header", { className: "topo" },
         React.createElement("h1", { className: "logo" }, "Editora MaujorTec"));
 };
+// Estrutura que dentro de um return geral tags de marcação HTML
 
 ReactDOM.render(Header(), document.getAnimations("root"));
+// render() é o método que retorna um elemento React a ser carregado pelo componente.
 
 function Principal() {
     return React.createElement("div", { className: "principal" }, "Coluna principal");
@@ -29,6 +31,7 @@ ReactDOM.render(Navegacao(), document.getElementById("root"));
 function Footer() {
     return React.createElement("footer", { className: "rodape" }, React.createElement("p", null, "Rodapé"));
 };
+// Utilize "null" quando não utilizar um atributo como "Classe" ou "id"
 
 ReactDOM.render(Footer(), document.getElementById("root"));
 

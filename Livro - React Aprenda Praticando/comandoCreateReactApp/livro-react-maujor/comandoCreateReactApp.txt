@@ -1,0 +1,21 @@
+// npx create-react-app nome-da-aplicacao
+
+Esse coamndo cria uma estrutura padrão para aplicações React em uma pasta denominada (nome-da-aplicacao). Ao término da criação da estrutura você verá na CLIalgo como mostrado a seguir.
+
+/*
+    We suggest that you begin by typing:
+    cd *nome-da-aplicacao*
+    npm start
+    Happy hacking! (Seja feliz codando!)
+*/
+
+Execute os dois coamndos( "*" significa que é um exemplo):
+
+/*
+    $ cd *nome-da-aplicacao*
+    $ npm start
+*/
+
+Esse comando inicia o servidor local de desenvolvimento na porta 3000 (localhost:3000)
+
+Para parar o servidor use na CLI as teclas " Ctrl + C "
