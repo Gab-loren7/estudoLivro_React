@@ -31,5 +31,6 @@
   - `Sintaxe JSX`
 
   - `DOM Core vs React.DOM `
-    
 
+  - `Componentes`
+    
