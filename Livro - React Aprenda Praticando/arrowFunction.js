@@ -65,16 +65,16 @@ console.log(avaliar(2, 3, 11));
 
 // ES6
 let avaliar2 = (x, y, z) => (x < 10) ? (y + z) : (y * z)
-console.log(avaliar(18, 15, 5));
-console.log(avaliar(2, 3, 11));
+console.log(avaliar2(18, 15, 5));
+console.log(avaliar2(2, 3, 11));
 
 let avaliar3 = (x, y, z) => (
     (x < 10) // condição
     ? (y + z) // linha começa com ?
     : (y * z) // linha começa com :
 );
-console.log(avaliar(180, 150, 50));
-console.log(avaliar(20, 30, 110));
+console.log(avaliar3(180, 150, 50));
+console.log(avaliar3(20, 30, 110));
 
 // Dá pra fazer direto no log
 console.log((x => 2 * x)(40));
